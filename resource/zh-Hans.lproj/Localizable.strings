@@ -1,0 +1,194 @@
+/* Localized versions of Localizable.strings keys */
+
+/* VersionMessage */
+"Version.Msg.string"		= "macOS Ver%@";
+
+/* General */
+"Message.DefaultFontName"	= "Helvetica";
+"IPMsg.HomePage"			= "https://ishwt.net/en/software/ipmsg/";
+
+/* Shutdown Confirm */
+	/* (If Receive Window(s) shown) */
+"ShutDown.Confirm1.Title"	= "存在打开的窗口。";
+"ShutDown.Confirm1.Msg"		= "您真的要退出IP Messenger吗？";
+"ShutDown.Confirm1.OK"		= "退出";
+"ShutDown.Confirm1.Cancel"	= "取消";
+	/* (If Non-Popup Message exsits) */
+"ShutDown.Confirm2.Title"	= "存在未读消息。";
+"ShutDown.Confirm2.Msg"		= "您真的要退出IP Messenger吗？";
+"ShutDown.Confirm2.OK"		= "退出";
+"ShutDown.Confirm2.Cancel"	= "取消";
+"ShutDown.Confirm2.Other"	= "打开未读";
+
+/* ReceiveDialog */
+"RecvDlg.BoxTitleAbsence"				= "Message from (Absence Mode) ...";
+"RecvDlg.BoxTitleMulti"					= "Multicast from...";
+"RecvDlg.BoxTitleBroad"					= "Broadcast from...";
+"RecvDlg.LockBtnStr"					= "大开 (Locked)";
+"RecvDlg.PwdChk.NoPwd"					= "未输入密码。";
+"RecvDlg.PwdChk.PwdErr"					= "密码错误。";
+"RecvDlg.URL.Delimiter"					= " 　\t\n";
+"RecvDlg.AttachFileOverwrite.Title"		= "保存";
+"RecvDlg.AttachFileOverwrite.OK"		= "替换";
+"RecvDlg.AttachFileOverwrite.Cancel"	= "取消";
+"RecvDlg.AttachFileOverwrite.Msg"		= "文件 \"%@\" 已经存在。
+替换吗？";
+"RecvDlg.AttachDirOverwrite.Title"		= "保存";
+"RecvDlg.AttachDirOverwrite.OK"			= "替换";
+"RecvDlg.AttachDirOverwrite.Cancel"		= "取消";
+"RecvDlg.AttachDirOverwrite.Msg"		= "文件夹 \"%@\" 已经存在。
+替换吗？
+覆盖文件夹将删除当前文件夹下的所有现有文件。";
+"RecvDlg.Attach.NoPermission.Title"		= "删除文件/目录时出错。";
+"RecvDlg.Attach.NoPermission.Msg"		= "没有权限 \"%@\".";
+"RecvDlg.Attach.SelectBtn"				= "选择";
+"RecvDlg.Attach.Header"					= "附件 (%d)";
+"RecvDlg.AttachSheet.Title"				= "下载中... (%d/%d)";
+"RecvDlg.AttachSheet.Start"				= "准备下载...";
+"RecvDlg.AttachSheet.Finish"			= "下载完成。";
+"RecvDlg.CloseWithAttach.Title"			= "剩余附件";
+"RecvDlg.CloseWithAttach.Msg"			= "没有下载的文件。
+您要关闭该窗口吗？";
+"RecvDlg.CloseWithAttach.OK"			= "关闭";
+"RecvDlg.CloseWithAttach.Cancel"		= "取消";
+"RecvDlg.CloseWithSeal.Title"			= "密封未打开";
+"RecvDlg.CloseWithSeal.Msg"				= "密封尚未打开。
+您要关闭该窗口吗？";
+"RecvDlg.CloseWithSeal.OK"				= "关闭";
+"RecvDlg.CloseWithSeal.Cancel"			= "取消";
+"RecvDlg.DownloadError.Title"			= "下载出错";
+"RecvDlg.DownloadError.TimeOut"			= "服务器超时。 (%d)";
+"RecvDlg.DownloadError.Socket"			= "网络错误。 (%d)";
+"RecvDlg.DownloadError.Connect"			= "无法连接。 (%d)";
+"RecvDlg.DownloadError.Disconnected"	= "连接已关闭。 (%d)";
+"RecvDlg.DownloadError.Communication"	= "通讯错误。 (%d)";
+"RecvDlg.DownloadError.FileOpen"		= "文件打开出错。 (%d)";
+"RecvDlg.DownloadError.InvalidData"		= "无效的数据。 (%d)";
+"RecvDlg.DownloadError.Internal"		= "发生内部错误。 (%d)";
+"RecvDlg.DownloadError.FileSize"		= "接收的数据大小无效。 (%d)";
+"RecvDlg.DownloadError.OtherError"		= "未知错误。 (%d)";
+
+/* SendDialog */
+"SendDlg.UserNumStr"					= "%d / %d";
+"SendDlg.Search.Target.User"			= "姓名";
+"SendDlg.Search.Target.Group"			= "分组";
+"SendDlg.Search.Target.Host"			= "计算机名";
+"SendDlg.Search.Target.LogOn"			= "登录用户";
+"SendDlg.Search.Placeholder.Separator"	= ", ";
+"SendDlg.Search.Placeholder.Normal"		= "搜索 %@";
+"SendDlg.Search.Placeholder.Invalid"	= "没有搜索类别";
+"SendDlg.AbsenceOff.Title"				= "缺席模式";
+"SendDlg.AbsenceOff.OK"					= "发布 & 发送";
+"SendDlg.AbsenceOff.Cancel"				= "取消";
+"SendDlg.AbsenceOff.Msg"				= "当前为缺席模式(%@)。
+现在发布并发送吗？";
+"SendDlg.Attach.Header"					= "附件 (%d)";
+/* Send Retry out Confirm */
+"Send.Retry.Title"			= "是否要再次发送消息？";
+"Send.Retry.Msg"			= "向 %@ 发送消息失败。";
+"Send.Retry.OK"				= "重试";
+"Send.Retry.Cancel"			= "取消";
+
+/* MesssageBoxDialogs */
+"SealOpenDlg.title"			= "消息已打开";
+
+/* RefuseCondition Info */
+"Refuse.Description.Format"	= "%1$@ %3$@ \"%2$@\"";
+"Refuse.Desc.Name"			= "姓名";
+"Refuse.Desc.Group"			= "分组";
+"Refuse.Desc.Machine"		= "计算机名";
+"Refuse.Desc.LogOn"			= "登录用户";
+"Refuse.Desc.IPAddress"		= "IP 地址";
+"Refuse.Desc.Match"			= "匹配";
+"Refuse.Desc.Contain"		= "包含";
+"Refuse.Desc.Start"			= "开始";
+"Refuse.Desc.End"			= "结束";
+
+/* Error Alert Panel Strings */
+"Err.DynStoreCreate.title"	= "SystemConfiguration初始化错误";
+"Err.DynStoreCreate.msg"	= "DynamicStore创建错误。";
+"Err.UDPSocketOpen.title"	= "网络初始化错误";
+"Err.UDPSocketOpen.msg"		= "UDP Socket 打开错误。";
+"Err.UDPSocketBind.title"	= "网络初始化错误 (bind)";
+"Err.UDPSocketBind.msg"		= "端口 No. %d (UDP) 被占用。";
+"Err.UDPSocketBind.ok"		= "退出";
+"Err.UDPSocketBind.alt"		= "修改端口";
+"Err.TCPSocketOpen.title"	= "网络初始化错误";
+"Err.TCPSocketOpen.msg"		= "TCP Socket 创建错误。
+附件功能已关闭。";
+"Err.TCPSocketBind.title"	= "网络初始化错误 (bind)";
+"Err.TCPSocketBind.msg"		= "端口号 No. %d (TCP) 被占用。
+附件功能已关闭。";
+"Err.TCPSocketListen.title"	= "网络初始化错误 (listen)";
+"Err.TCPSocketListen.msg"	= "附件服务初始化错误。
+附件功能已关闭。";
+"Err.NetCheck.title"		= "网络错误";
+"Err.NetCheck.msg"			= "找不到网络地址。
+可能未连接到网络。";
+
+/* Preference Panel */
+	/* Password Modify */
+"Pref.PwdMod.NoOldPwd"		= "输入旧密码。";
+"Pref.PwdMod.OldPwdErr"		= "旧密码不匹配";
+"Pref.PwdMod.NewPwdErr"		= "密码不匹配";
+	/* Broadcast Append */
+"Pref.Broadcast.EmptyIP"	= "没有IP地址。";
+"Pref.Broadcast.EmptyHost"	= "没有计算机名";
+"Pref.Broadcast.WrongIP"	= "IP 地址无效";
+"Pref.Broadcast.ExistIP"	= "IP 地址已存在。";
+"Pref.Broadcast.ExistHost"	= "计算机名已存在";
+"Pref.Broadcast.UnknownHost"= "无法解析地址";
+	/* Absence Add/Edit/Reset */
+"Pref.Absence.NoTitle"		= "没有标题。";
+"Pref.Absence.NoMessage"	= "没有内容。";
+"Pref.Absence.ExistTitle"	= "设定已存在";
+"Pref.AbsenceReset.Title"	= "重置缺席设定";
+"Pref.AbsenceReset.Msg"		= "您想重新初始化缺席设定吗？
+您的自定义设定将丢失。";
+"Pref.AbsenceReset.OK"		= "重置";
+"Pref.AbsenceReset.Cancel"	= "取消";
+	/* Absence Default Value */
+"Pref.Absence.Def0.Title"	= "离开";
+"Pref.Absence.Def0.Message"	= "我不在座位上";
+"Pref.Absence.Def1.Title"	= "就餐";
+"Pref.Absence.Def1.Message"	= "正在就餐";
+"Pref.Absence.Def2.Title"	= "会议中";
+"Pref.Absence.Def2.Message"	= "在开会";
+"Pref.Absence.Def3.Title"	= "接待来宾";
+"Pref.Absence.Def3.Message"	= "接待来宾";
+"Pref.Absence.Def4.Title"	= "外出中";
+"Pref.Absence.Def4.Message"	= "外出中";
+"Pref.Absence.Def5.Title"	= "家";
+"Pref.Absence.Def5.Message"	= "已回家";
+"Pref.Absence.Def6.Title"	= "Edo";
+"Pref.Absence.Def6.Message"	= "Edo tokorobarai wo mousi watasu!";
+"Pref.Absence.Def7.Title"	= "出家";
+"Pref.Absence.Def7.Message"	= "我厌倦了生活...
+请不要找我...";
+	/* Refuse List */
+"Pref.Refuse.Error.NoInput"	= "无输入";
+	/* Log */
+"Log.File.SaveSheet.OK"		= "选择";
+"Log.Type.Broadcast"		= "(广播)";
+"Log.Type.AutoRet"			= "(自动)";
+"Log.Type.Multicast"		= "(多选)";
+"Log.Type.Locked"			= "(锁定)";
+"Log.Type.Sealed"			= "(密封)";
+"Log.Type.Attachment"		= "(文件)";
+	/* Log Convertion */
+"Log.Conv.StdLog"			= "默认日志";
+"Log.Conv.AltLog"			= "备用日志";
+"Log.Conv.Title"			= "%@ 转换";
+"Log.Conv.Message"			= "字符编码已更改。
+%@ 文件需要转换。
+您确定要转换日志文件吗？
+
+如果选择“否”，将备份当前日志文件。";
+"Log.Conv.OK"				= "转换";
+"Log.Conv.Cancel"			= "否";
+"Log.ConvFail.Title"		= "日志转换失败";
+"Log.ConvFail.Message"		= "将创建一个新的空日志文件。
+当前日志文件将被备份。";
+"Log.ConvFail.OK"			= "OK";
+"Log.Backup.Title"			= "原始日志文件备份";
+"Log.Backup.OK"				= "选择";

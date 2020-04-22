@@ -96,6 +96,13 @@
 		64CD0451027F05C200C69EE8 /* LogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogManager.m; sourceTree = "<group>"; };
 		64DAAE0B02A0BDE2001FC8E1 /* RetryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetryInfo.h; sourceTree = "<group>"; };
 		64DAAE0C02A0BDE2001FC8E1 /* RetryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetryInfo.m; sourceTree = "<group>"; };
+		70DBB51C244FE3D2008BC6FF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		70DBB51D244FE3D2008BC6FF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.xib"; sourceTree = "<group>"; };
+		70DBB51E244FE3D2008BC6FF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/SendWindow.xib"; sourceTree = "<group>"; };
+		70DBB51F244FE3D2008BC6FF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/ReceiveWindow.xib"; sourceTree = "<group>"; };
+		70DBB520244FE3D2008BC6FF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/NoticeDialog.xib"; sourceTree = "<group>"; };
+		70DBB521244FE3D2008BC6FF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/PortChangeDialog.xib"; sourceTree = "<group>"; };
+		70DBB522244FE3D2008BC6FF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/LogConvertDialog.xib"; sourceTree = "<group>"; };
 		8B65DC0902E36A46F9DAB193 /* Pods_IPMessenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IPMessenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A745B7A2DFB40FE6CF56F7B8 /* Pods-IPMessenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPMessenger.debug.xcconfig"; path = "Target Support Files/Pods-IPMessenger/Pods-IPMessenger.debug.xcconfig"; sourceTree = "<group>"; };
 		F51E8DF20326721501A80003 /* AttachmentServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttachmentServer.h; sourceTree = "<group>"; };
@@ -185,6 +192,7 @@
 		080E96DDFE201D6D7F000001 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				7053A5A424500E290055497E /* DB */,
 				64253EAE026818A200A0FC6F /* Application */,
 				F5269D4F020433CA01A86403 /* User */,
 				F5269D4402041BF801A86403 /* Message */,
@@ -270,6 +278,13 @@
 				648FC35B0260954200A86403 /* Config.m */,
 			);
 			name = Application;
+			sourceTree = "<group>";
+		};
+		7053A5A424500E290055497E /* DB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DB;
 			sourceTree = "<group>";
 		};
 		F51E8DF103266ECD01A80003 /* Attachment */ = {
@@ -466,6 +481,7 @@
 			knownRegions = (
 				ja,
 				en,
+				"zh-Hans",
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* IPMessenger */;
 			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
@@ -583,6 +599,7 @@
 			children = (
 				F70E84242326733B0003AB04 /* en */,
 				F70E84292326736C0003AB04 /* ja */,
+				70DBB520244FE3D2008BC6FF /* zh-Hans */,
 			);
 			name = NoticeDialog.xib;
 			sourceTree = "<group>";
@@ -592,6 +609,7 @@
 			children = (
 				F70E842F232674BE0003AB04 /* en */,
 				F70E8431232674D70003AB04 /* ja */,
+				70DBB521244FE3D2008BC6FF /* zh-Hans */,
 			);
 			name = PortChangeDialog.xib;
 			sourceTree = "<group>";
@@ -601,6 +619,7 @@
 			children = (
 				F70E84332326752D0003AB04 /* en */,
 				F70E84352326753E0003AB04 /* ja */,
+				70DBB51F244FE3D2008BC6FF /* zh-Hans */,
 			);
 			name = ReceiveWindow.xib;
 			sourceTree = "<group>";
@@ -610,6 +629,7 @@
 			children = (
 				F70E8437232676A70003AB04 /* en */,
 				F70E8439232676F40003AB04 /* ja */,
+				70DBB51E244FE3D2008BC6FF /* zh-Hans */,
 			);
 			name = SendWindow.xib;
 			sourceTree = "<group>";
@@ -619,6 +639,7 @@
 			children = (
 				F70E843B232677260003AB04 /* en */,
 				F70E843D232677370003AB04 /* ja */,
+				70DBB51D244FE3D2008BC6FF /* zh-Hans */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -628,6 +649,7 @@
 			children = (
 				F7BF217E230E731C00569076 /* ja */,
 				F70E841023265DB20003AB04 /* en */,
+				70DBB522244FE3D2008BC6FF /* zh-Hans */,
 			);
 			name = LogConvertDialog.xib;
 			sourceTree = "<group>";
@@ -637,6 +659,7 @@
 			children = (
 				F7BF217D230E731C00569076 /* ja */,
 				F7BF2184230E732600569076 /* en */,
+				70DBB51C244FE3D2008BC6FF /* zh-Hans */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
